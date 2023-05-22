@@ -1,0 +1,381 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style:none;
+  box-sizing: border-box; /* Para que los elementos no se sangan del su contenedores  */
+}
+
+
+#id-nav2{
+  width: 100%;
+  height: 100%;
+}
+
+nav ul{
+  float: right;
+  margin: 0 20px 0 0;
+}
+
+nav ul li{
+ display: inline-block;
+ padding: 0 15px 0 0 ;
+ text-transform: uppercase;
+ font-size: 0.80rem;
+}
+
+nav li a:hover, nav li a.c-active{
+   background: none;
+   color: #D4D9DD;
+ }
+
+nav ul  li a{
+  color: #a0a8ab;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.c-checkbtn{
+  float: right;
+  font-size: 30px;
+  line-height: 150px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+
+}
+
+#id-check {
+  display: none;
+}
+
+#id-logo{
+  position: relative;
+  top: 150px;
+  left: auto;
+  padding: 25px, 50px;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+}
+
+p{
+	text-align: justify;
+}
+
+#id-header {
+		position: relative;
+		background: #3B4346;
+		border-bottom: solid 1px #272d30;
+		box-shadow: inset 0px -1px 0px 0px #51575a;
+		text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.75);
+	}
+
+#id-header > .container {
+			position: relative;
+			min-height: 155px;
+		}
+
+/* Navar Menu*/
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;}
+
+#id-nav {
+			position: absolute;
+			right: 0;
+			bottom: 35px;
+			font-weight: 200;
+			width: fit-content;
+			text-align: initial;
+      width: -webkit-fill-available;
+      border: double;
+      border-color: red;
+		}
+
+#id-nav a {
+				color: #c6c8c8;
+				text-decoration: none;
+				font-size: 1em;
+				margin-left: 60px;
+				outline: 0;
+			}
+
+#id-nav a:hover {
+					color: #f6f8f8;
+					font-size: 1.01rem;
+				}
+
+#id-header h1 {
+			position: relative;
+            top: 1px;
+            right: 0%;
+			bottom: 35px;
+			font-size: 2.75em;
+			/*width: fit-content;*/
+		}
+
+#id-header h1 a {
+				color: #fff;
+				text-decoration: none;
+				font-family:"Lilita One";
+			}
+
+#id-about-me h1 {
+	color: #fff;
+	text-decoration: none;
+	font-family: "Montserrat";
+	font-size: 1.5em;
+  text-align: left;
+  font-weight: 600;
+}
+
+#id-about-me p{
+	color: #a0a8ab;
+	font-size: 1.1em;
+}
+
+#id-myprofile {
+    background: #FFFFFF;
+    border-top: solid 1px #fff;
+    /*padding: 45px 0 45px 0;*/
+    padding: 40px 0 40px 0;
+}
+
+#id-myprofile section {
+    /*background: #fff; */
+    /*padding: 40px 20px 45px 20px;
+	margin: 0 0 25px 0;*/
+	padding: 0px 10px 40px 0px;
+	margin: 0 25px 25px 0;
+	box-shadow: 2px 2px 2px 1px rgba(128, 128, 128, 0.4);
+	min-width: 10%;
+	height: 90%;
+}
+
+#id-myprofile header{
+	color: #404258;
+	font-family: "Kavoon";
+	text-align: center;
+  padding: 5%;
+}
+
+#id-myprofile header h1{
+	font-size: 1.1em;
+	font-weight: lighter;
+}
+
+#id-myprofile section ul{
+  text-align: justify;
+}
+
+#id-myprofile div.col-4 {
+  min-width: 35%;
+}
+
+#id-footer div.container {
+      justify-content: center;
+}
+
+#id-footer{
+ background: #D4D9DD;
+ padding: 30px 0 45px 0;
+ text-shadow: 1px 1px 1px white;
+ color: #546b76;
+ text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.5);
+}
+
+#id-oracle {
+background: linear-gradient(0deg, transparent, rgb(246 244 242 / 50%));
+}
+
+#id-postgresql {
+background: linear-gradient(0deg, transparent, rgb(221 219 217 / 50%));
+}
+
+#id-python {
+background: linear-gradient(0deg, transparent, rgb(237 229 220 / 50%));
+}
+
+#id-copyright{
+    background: #D4D9DD;
+    border-top: solid 1px #b5bec3;
+    box-shadow: inset 0px 1px 0px 0px #e0e4e7;
+    text-align: center;
+    padding: 45px 0 80px 0;
+    color: #8d9ca3;
+    text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.5);
+}
+
+#id-list-inline{
+  display: inline-flex;
+  list-style-type: none; /* Remove bullets */
+}
+
+#id-free{
+  font-family: "Metal Mania";
+  font-size: 2.75em;
+  color: #fff;
+  font-weight: lighter;
+}
+
+@media screen and (max-width:480px) {
+
+  #id-header h1 a {
+  				font-size: 0.9em;
+  			}
+
+  #id-free{
+          font-size: 0.9em;
+        }
+
+  .c-checkbtn{
+      display: flex;
+      float: left;
+      position: relative;
+      top: 10px;
+      }
+
+      #id-header h1 {
+        display: flex;
+        position: relative;
+        left: 0px;
+        top: 0px;
+        font-size: 1.5em;
+        width: fit-content;
+        margin: auto;
+    }
+
+    #id-check:checked ~ ul{
+      left: 0;
+    }
+
+}
+
+@media screen and (min-width:480px) and (max-width:780px){
+  .c-checkbtn{
+    display: block;
+  }
+
+  #id-header h1 {
+    position: relative;
+    left: 80px;
+    }
+
+}
+
+@media  (max-width:780px){
+
+  nav ul li a{
+    font-size: 0.6rem;
+  }
+
+
+ nav ul {
+   position: fixed;
+   width: 50%;
+   height: 100uvh;
+   background: #3B4346;
+   top: 100px;
+   left: -100%;
+   text-align: center;
+   transition: all 0.5s;
+ }
+
+ nav ul li {
+   display: block;
+   margin: 1% 0;
+   line-height: 30px;
+ }
+
+ nav li a:hover, nav li a.c-active{
+   background: none;
+   color: #D4D9DD;
+ }
+
+   #id-check:checked ~ ul{
+     left: 0;
+   }
+
+  #id-myprofile div.col-4 {
+    min-width: 100%;
+  }
+
+  .flex-container{
+        flex-direction: column;
+        }
+
+  #id-nav {
+            position: relative;
+            left: 5px;
+            font-size: 0.5rem;
+            width: fit-content;
+        }
+
+	#id-header h1 {
+    top: 0px;
+    font-size: 1.6em;
+    width: fit-content;
+		margin: auto;
+    }
+
+	#navbarDataTarget{
+		border: double red;
+    width: fit-content;
+    position: absolute;
+    top: 90%;
+		}
+
+    .flex-container{
+          flex-direction: column;
+          }
+    #navbarDataTarget{
+  		position: absolute;
+   		right: 180%;
+    }
+
+    #id-myprofile div.col-4 {
+      min-width: 100%;
+    }
+}
+
+#id-this-is-me {
+	width:100%;
+  height: 60%;
+}
+
+#id-about-me{
+  background: #353D40;
+	border-bottom: solid 1px #272e31;
+	padding: 45px 0 45px 0;
+	text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.75);
+	color: #fff;
+}
+
+.bordered-feature-image {
+    display: block;
+    background: #fff
+    padding: 10px;
+    box-shadow: 5px 5px 5px 1px rgba(255, 255, 255, 0.20);
+    margin: 0 0 1.5em 0;
+    outline: 0;
+}
+
+/*
+@media screen and ( min-width:480px) and (max-width:992px) {
+  .flex-container{
+        flex-direction: column;
+        }
+  #navbarDataTarget{
+		position: absolute;
+ 		right: 180%;
+  }
+
+  #id-myprofile div.col-4 {
+    min-width: 100%;
+  }
+}
+*/
