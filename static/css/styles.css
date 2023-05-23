@@ -234,7 +234,8 @@ background: linear-gradient(0deg, transparent, rgb(237 229 220 / 50%));
     margin: 0 25px 25px 0;
     box-shadow: 2px 2px 2px 1px rgba(128, 128, 128, 0.4);
     height: 80%;
-    width: 18rem;
+    /*width: 18rem;*/
+    width: auto;
 }
 
 #id-porfolio-web div.flex-container {
@@ -245,7 +246,7 @@ background: linear-gradient(0deg, transparent, rgb(237 229 220 / 50%));
   color: #404258;
   font-family: "Kavoon";
   text-align: center;
-  font-size: 1.1em;
+  font-size: 0.95em;
   font-weight: lighter;
 }
 
@@ -271,11 +272,53 @@ color: #a0a8ab;
 }
 
 #id-line{
-  border-width: 2px;
-  border-style: dotted;
+  border-width: 5px;
+  border-style: none;
   border-color: #353D40;
-  width: 50%;
+  width: 5%;
+  border-top-style:dotted;
+  height:0;
 
+}
+
+#id-porfolio-game div h1{
+color: #404258;
+font-family:'Kavoon';
+text-align: center;
+font-size: 0.95em;
+font-weight: lighter;
+}
+
+#id-porfolio-game div video{
+  padding: 0px 10px 40px 0px;
+  margin: 0 25px 25px 0;
+  /*box-shadow: 2px 2px 2px 1px rgba(128, 128, 128, 0.4);*/
+  height: 80%;
+  width: 18rem;
+}
+
+#id-porfolio-game div.flex-container {
+    justify-content: center;
+}
+
+#id-porfolio-scraper div h1{
+color: #404258;
+font-family:'Kavoon';
+text-align: center;
+font-size: 0.95em;
+font-weight: lighter;
+}
+
+#id-porfolio-scraper div video{
+  padding: 0px 10px 40px 0px;
+  margin: 0 25px 25px 0;
+  /*box-shadow: 2px 2px 2px 1px rgba(128, 128, 128, 0.4);*/
+  height: 80%;
+  width: 18rem;
+}
+
+#id-porfolio-scraper div.flex-container {
+    justify-content: center;
 }
 
 @media screen and (max-width:480px) {
