@@ -142,7 +142,8 @@ footer, header, hgroup, menu, nav, section {
     background: #FFFFFF;
     border-top: solid 1px #fff;
     /*padding: 45px 0 45px 0;*/
-    padding: 40px 0 40px 0;
+    /*padding: 40px 0 40px 0;*/
+    padding: 40px 0 0 0;
 }
 
 #id-myprofile section {
@@ -220,6 +221,61 @@ background: linear-gradient(0deg, transparent, rgb(237 229 220 / 50%));
   font-size: 2.75em;
   color: #fff;
   font-weight: lighter;
+}
+
+#id-porfolio-web {
+    background: #FFFFFF;
+    border-top: solid 1px #fff;
+    /*padding: 40px 0 40px 0;*/
+}
+
+#id-porfolio-web section div.card {
+    padding: 0px 10px 40px 0px;
+    margin: 0 25px 25px 0;
+    box-shadow: 2px 2px 2px 1px rgba(128, 128, 128, 0.4);
+    height: 80%;
+    width: 18rem;
+}
+
+#id-porfolio-web div.flex-container {
+  justify-content: center;
+}
+
+#id-porfolio-web section div h5{
+  color: #404258;
+  font-family: "Kavoon";
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: lighter;
+}
+
+#id-porfolio-web section div a{
+color: #a0a8ab;
+}
+
+
+.btn-secondary{
+  border: solid 2px #D4D9DD;
+}
+
+.c-card1{
+  background: linear-gradient(0deg, transparent, rgb(246 244 242 / 50%));
+}
+
+.c-card2{
+  background: linear-gradient(0deg, transparent, rgb(221 219 217 / 50%));
+}
+
+.c-card3 {
+    background: linear-gradient(0deg, transparent, rgb(237 229 220 / 50%));
+}
+
+#id-line{
+  border-width: 2px;
+  border-style: dotted;
+  border-color: #353D40;
+  width: 50%;
+
 }
 
 @media screen and (max-width:480px) {
