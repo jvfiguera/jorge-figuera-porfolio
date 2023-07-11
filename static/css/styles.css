@@ -259,6 +259,10 @@ color: #a0a8ab;
   border: solid 2px #D4D9DD;
 }
 
+.c-card0{
+  background: linear-gradient(0deg, transparent, rgb(221 219 217 / 50%));
+}
+
 .c-card1{
   background: linear-gradient(0deg, transparent, rgb(246 244 242 / 50%));
 }
